@@ -1,4 +1,4 @@
-#' My n curve
+#' My normal curve function
 #'
 #' @param mu distribution mean
 #' @param sigma distribution standard deviation

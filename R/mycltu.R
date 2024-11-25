@@ -1,4 +1,4 @@
-#' mycltu Function
+#' Sample Mean Distribution Function
 #'
 #' @param n sample size
 #' @param iter number of iterations

@@ -8,8 +8,7 @@
 #' @export
 #'
 #' @examples
-#' x <- c(1, 2, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5)
-#' pareto(x)
+#' pareto(x = c(1, 2, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5))
 pareto <- function(x, mn = "Pareto barplot", ...) {
   x.tab = table(x)
   xx.tab = sort(x.tab, decreasing = TRUE, index.return = FALSE)
